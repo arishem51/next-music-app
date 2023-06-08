@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import { Inter } from "next/font/google";
-import { Footer, Header, SidebarListMusic, SidebarNav } from "@/components";
+import { Header, SidebarListMusic, SidebarNav } from "@/components";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,7 +18,6 @@ export default function RootLayout({ children }: PropsWithChildren) {
         <SidebarNav />
         <SidebarListMusic />
         {children}
-        <Footer />
       </body>
     </html>
   );
