@@ -1,3 +1,5 @@
 export default function SidebarListMusic() {
-  return <aside>Sidebar List Music</aside>;
+  return (
+    <aside className="relative inset-y-0 right-0">Sidebar List Music</aside>
+  );
 }
