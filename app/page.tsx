@@ -2,8 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Music App</h1>
-    </main>
+    <>
+      <header>Search Header</header>
+      <aside>Left Sidebar</aside>
+      <aside>right Sidebar</aside>
+      <main>Route</main>
+      <footer>Footer</footer>
+    </>
   );
 }
