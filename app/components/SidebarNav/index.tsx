@@ -1,6 +1,9 @@
+import Logo from "../Logo";
+
 export default function Sidebar() {
   return (
-    <aside className="relative inset-y-0 left-0">
+    <aside className="w-80 inset-y-0 left-0">
+      <Logo />
       <ul>
         <li>Explore</li>
       </ul>
