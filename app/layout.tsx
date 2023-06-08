@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html data-theme="dark" lang="en" suppressHydrationWarning>
       <body className={`${inter.className} flex h-screen w-screen`}>
         <Header />
         <SidebarNav />
